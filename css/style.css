@@ -19,3 +19,86 @@
     font-family:"youngSerif";
     src: url('../assets/fonts/young-serif/YoungSerif-Regular.ttf');
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--Stone-100);
+    font-family: "Outfit";
+    font-size: 16px;
+    font-weight: 400;
+    padding: 3em 0;
+    color: var(--Stone-600);
+}
+h1{
+    font-family: "youngSerif";
+    font-weight: 700;
+    margin: .5em 0 ;
+}
+h2{
+    color: var(--Brown-800);
+    font-family: "youngSerif";
+}
+.container{
+    max-width: 500px;
+    background-color: var(--White);
+    padding: 1em 2em;
+    border-radius: 15px;
+    margin: 0 auto;
+    font-size: .72em;
+}
+img{
+    max-width: 100%;
+    border-radius: 15px;
+}
+.preparation-box{
+    background-color: var(--Rose-50);
+    padding: 1em;
+}
+.unordered-list{
+    padding: .5em 1em;
+}
+.preparation-box h3{
+    color: var(--Rose-800);
+}
+
+ul{
+    list-style: none;
+}
+ul li{
+    margin: .4em 0;
+    list-style: disc;
+}
+
+.box{
+    margin-top: .5em;
+    padding: 1em;
+}
+hr{
+    border: none;
+    border-top: 1px solid var(--Stone-150);
+}
+.nutrition .description{
+    margin-top: .4em;
+}
+table{
+    margin-top: .5em;
+    width: 100%;
+}
+td{
+    padding: .5em;
+    border-bottom: 1px solid var(--Stone-150);
+}
+
+@media screen and (max-width: 500px) {
+    body{
+        font-size: 12px;
+        padding: 0;
+       background-color: var(--White);
+    }
+    .container{
+        border-radius: 0;
+    }
+}
